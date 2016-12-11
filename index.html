@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="kaledos" ng-controller="mainController">
+  <head>
+    <meta charset="utf-8">
+    <title>Kalėdos</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body ng-style="bodyStyle">
+    <div id="snowflakeContainer">
+      <div class="snowflake"></div>
+      <div class="snowflake"></div>
+    </div>
+    <pradzia ng-if="!pradeta && !complete"></pradzia>
+    <k0 klausimas ng-if="pradeta && step == 0 && !complete"></k0>
+    <k1 klausimas ng-if="pradeta && step == 1 && !complete"></k1>
+    <k2 klausimas ng-if="pradeta && step == 2 && !complete"></k2>
+    <k3 klausimas ng-if="pradeta && step == 3 && !complete"></k3>
+    <result ng-if="complete"></result>
+    <loader ng-if="pradeta && step == 4 && !complete"></loader>
+    <bottom ng-if="pradeta && !complete"></bottom>
+    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="snow.js"></script>
+  </body>
+</html>

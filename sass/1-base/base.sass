@@ -1,0 +1,49 @@
+@import "vars"
+
+@font-face
+  font-family: 'PragmaticaRegular'
+  src: url('../fonts/Prg55.ttf') format('ttf')
+@font-face
+  font-family: 'PragmaticaRegular'
+  src: url('../fonts/Prg55.otf') format('otf')
+@font-face
+  font-family: 'PragmaticaRegular'
+  src: url('../fonts/Prg55.woff') format('woff')
+*
+  margin: 0
+  padding: 0
+html
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-family: 'PragmaticaRegular', Arial, sans-serif
+  color: white
+  text-align: center
+body
+  background: $purple
+  transition-duration: 3s
+.center
+  position: absolute
+  top: 50%
+  width: 100%
+  transform: translate(0, -50%)
+p
+  font-size: 24px
+  font-weight: 400
+  line-height: 36px
+h1
+  font-size: 40px
+  font-weight: 400
+  line-height: 48px
+h2
+  font-size: 30px
+  font-weight: 400
+  line-height: 36px
+.topil
+  width: 397px
+  height: 170px
+  margin-top: -70px
+  margin-bottom: 30px
+  background-image: url("../images/topil.png")
+  background-repeat: no-repeat
+  background-size: contain
+  display: inline-block

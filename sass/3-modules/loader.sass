@@ -1,0 +1,19 @@
+.spinner
+  width: 98px
+  height: 98px
+  position: absolute
+  background-image: url("../images/spinner.png")
+  background-size: contain
+  background-repeat: no-repeat
+  left: 50%
+  top: 50%
+  transform: translate(-50%, -100%)
+  animation: spin 2s infinite linear
+  @keyframes spin
+      0%
+        transform: translate(-50%, -100%) rotate(0deg)
+      100%
+        transform: translate(-50%, -100%) rotate(360deg)
+.loader
+  p
+    padding-top: 100px

@@ -1,0 +1,9 @@
+<div class="bottom">
+  <div class="steps">
+    <div class="bur" ng-class="{'current' : step == 0, 'done' : step > 0}"></div>
+    <div class="bur" ng-class="{'current' : step == 1, 'done' : step > 1}"></div>
+    <div class="bur" ng-class="{'current' : step == 2, 'done' : step > 2}"></div>
+    <div class="bur" ng-class="{'current' : step == 3, 'done' : step > 3}"></div>
+  </div>
+  <div class="back" ng-click="back()" ng-if="step > 0"></div>
+</div>

@@ -1,16 +1,29 @@
 <!DOCTYPE html>
-<html ng-app="kaledos" ng-controller="mainController">
+<html ng-app="kaledos" ng-controller="mainController" class="white">
   <head>
     <meta charset="utf-8">
-    <title>Kalėdos</title>
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Susikurkite savo Kalėdų Senelio portretą</title>
+    <meta name="description" content='Nesvarbu, kad jūsų mėgstamiausia spalva visai ne raudona, o vietoj rogių, kurias tempia elniai, renkatės troleibusą, jūs – pats tikriausias Kalėdų Senelis!'>
+    <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body ng-style="bodyStyle">
-    <div id="snowflakeContainer">
-      <div class="snowflake"></div>
+  <body ng-class="{pradeta: pradeta}">
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-N8WH4M"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N8WH4M');</script>
+    <!-- End Google Tag Manager -->
+
+    <div id="snowflakeContainer" >
       <div class="snowflake"></div>
     </div>
+    <div class="logoteo"></div>
+    <div class="logoomni"></div>
     <pradzia ng-if="!pradeta && !complete"></pradzia>
     <k0 klausimas ng-if="pradeta && step == 0 && !complete"></k0>
     <k1 klausimas ng-if="pradeta && step == 1 && !complete"></k1>
@@ -19,9 +32,10 @@
     <result ng-if="complete"></result>
     <loader ng-if="pradeta && step == 4 && !complete"></loader>
     <bottom ng-if="pradeta && !complete"></bottom>
-    <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="js/main-min.js"></script>
+    <!-- <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
     <script src="node_modules/angular/angular.js"></script>
     <script src="app.js"></script>
-    <script src="snow.js"></script>
+    <script src="snow.js"></script> -->
   </body>
 </html>

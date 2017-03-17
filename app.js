@@ -1,12 +1,12 @@
 angular.module('kaledos', [])
-.controller('mainController', function($scope, $document) {
+.controller('mainController', ['$scope', '$document', function($scope, $document) {
   $scope.senelis = {
     spalva: 0,
     daiktas: 0,
     transportas: 0,
     lytis: 0
   };
-  $scope.spalvos = ["#e43f5e", "#0999d9", "#f5ac1e", "#00b48c", "#101010"];
+  $scope.spalvos = ["#e43f5e", "#0999d9", "#443083", "#00b48c", "#101010"];
   $scope.pradeta = false;
   $scope.complete = false;
   $scope.step = 0;
@@ -37,7 +37,7 @@ angular.module('kaledos', [])
       lytis: 0
     };
   };
-})
+}])
 .directive('pradzia', function(){
   return {
     restrict: 'E',
@@ -85,7 +85,7 @@ angular.module('kaledos', [])
       elem.animate({
         opacity: 1
       }, 300);
-      setTimeout(scope.finish, 500);
+      setTimeout(scope.finish, 2500);
     }
   };
 })
@@ -96,15 +96,9 @@ angular.module('kaledos', [])
     templateUrl: 'result.html',
     link: function(scope, elem, attrs, controller) {
       elem.css("opacity", 0);
-      elem.css("top", "55%");
       elem.animate({
-        opacity: 1,
-        top: "50%"
-      }, 500, function(){
-        elem.find(".p1").delay(3000).fadeOut("slow");
-        elem.find(".p2").delay(3500).fadeIn("slow");
-      });
-
+        opacity: 1
+      }, 500);
     }
   };
 })

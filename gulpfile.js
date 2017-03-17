@@ -5,10 +5,22 @@ var gulp         = require('gulp'),
     rename       = require('gulp-rename'),
     connect      = require('gulp-connect'),
     jeditor      = require('gulp-json-editor'),
+    concat       = require('gulp-concat'),
+    concatCss    = require('gulp-concat-css'),
+    uglify       = require('gulp-uglify'),
+    uglify       = require('gulp-minify'),
     seneliai     = require('./seneliai.json');
 
 
-
+var jsFiles = [
+  'node_modules/jquery/dist/jquery.min.js',
+  'node_modules/angular/angular.js',
+  'app.js',
+  'snow.js'
+];
+var cssFiles = [
+  'node_modules/normalize.css/normalize.css',
+];
 
 
 gulp.task('sass', function() {
@@ -19,10 +31,25 @@ gulp.task('sass', function() {
     .pipe(connect.reload());
 });
 
+gulp.task('css', function () {
+  return gulp.src(cssFiles)
+    .pipe(concatCss("vendor.css"))
+    .pipe(gulp.dest('css'));
+});
+
+gulp.task('js', function(){
+  return gulp.src(jsFiles)
+    .pipe(concat('main.js'))
+    .pipe(uglify({mangle:true}))
+    .pipe(gulp.dest('js'))
+    .pipe(connect.reload());
+});
+
 
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.sass', ['sass']);
   gulp.watch('senelis.handlebars', ['handlebars']);
+  gulp.watch('app.js', ['js']);
 });
 
 gulp.task('connect', function() {
@@ -33,7 +60,7 @@ gulp.task('connect', function() {
 });
 
 gulp.task('makejson', function(){
-  var spalvos = ["#e43f5e", "#0999d9", "#f5ac1e", "#00b48c", "#101010"];
+  var spalvos = ["#e43f5e", "#0999d9", "#443083", "#00b48c", "#101010"];
   var daiktai = 3;
   var transportas = 4;
   var lytis = 2;
@@ -44,6 +71,7 @@ gulp.task('makejson', function(){
         for(var d = 0; d < lytis; d++) {
           var senelis = {
             pavadinimas: (a+1) + '' + (b+1) + '' + (c+1) + '' + (d+1),
+            foto: (b+1) + '' + (c+1) + '' + (d+1) + ".png",
             spalva: spalvos[a]
           };
           seneliai.push(senelis);
@@ -52,7 +80,7 @@ gulp.task('makejson', function(){
     }
   }
   console.log(seneliai);
-  gulp.src("./s.json")
+  gulp.src("./seneliai.json")
     .pipe(jeditor(function(json) {
       json = seneliai;
       return json; // must return JSON object.
@@ -71,4 +99,4 @@ gulp.task('handlebars', function() {
   }
 });
 
-gulp.task('default', ['sass', 'watch', 'connect', 'handlebars']);
+gulp.task('default', ['sass', 'watch', 'connect', 'handlebars', 'js', 'css']);

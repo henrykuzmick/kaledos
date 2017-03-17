@@ -1,28 +1,41 @@
 <div class="final">
-  <div class="p1">
-    <div class="center">
-      <h2>Nesvarbu, ką vilkite ar kokiu transportu keliaujate – <br> esate pats tikriausias Kalėdų Senelis!</h2>
-    </div>
-  </div>
   <div class="p2">
-    <h2>
-      Savo skubėjimu ir dovanomis, skambučiais ir apkabinimais teikiate laimę kitiems.
-      <br><br>
-      Linkime sukurti gražias šventes artimiesiems, nepamirštant ir savęs.
-      <br><br>
-      <div class="logos"></div>
-    </h2>
-    <div class="buttonrow">
-      <div class="fbshare">
-        Dalintis Facebook
+    <div class="right" ng-style="bodyStyle">
+      <div class="topthing">
+        <span class="piestukas"></span> Jūsų Kalėdų Senelio portretas
       </div>
-      <div class="atsisiusti">
-        Atisisiųsti
-      </div>
-      <div class="restart" ng-click="restart()">
-        Iš naujo
+      <h2 class="topline">
+        Nesvarbu, ką vilkite ar kokiu transportu keliaujate – esate pats tikriausias Kalėdų Senelis!
+      </h2>
+      <div class="iliustracija" style="background-image: url('PNG/{{ senelis.daiktas }}{{ senelis.transportas }}{{ senelis.lytis }}.png')"></div>
+      <div class="buttonrow">
+        <a class="fbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A//meskaleduseneliai.lt/seneliai/senelis-{{ senelis.spalva }}{{ senelis.daiktas }}{{ senelis.transportas }}{{ senelis.lytis }}.html" target="_blank">
+          Dalintis Facebook
+        </a>
+        <br class="btnbreak">
+        <a class="atsisiusti" download href="http://meskaleduseneliai.lt/fb/{{ senelis.spalva }}{{ senelis.daiktas }}{{ senelis.transportas }}{{ senelis.lytis }}.png" target="_blank">
+          Atsisiųsti
+        </a>
+        <div class="restart" ng-click="restart()">
+          Iš naujo
+        </div>
       </div>
     </div>
-    <div class="iliustracija" style="background-image: url('PNG/{{ senelis.daiktas }}{{ senelis.transportas }}{{ senelis.lytis }}.png')"></div>
+    <div class="left">
+      <h2>
+        <span class="topline">
+          Nesvarbu, ką vilkite ar kokiu transportu keliaujate – esate pats tikriausias Kalėdų Senelis!
+          <br><br>
+        </span>
+        Savo skubėjimu ir dovanomis, skambučiais ir apkabinimais teikiate laimę kitiems.
+        <br><br>
+        Linkime sukurti gražias šventes artimiesiems, nepamirštant ir savęs.
+        <br><br>
+        <div class="logos">
+          <a class="right" href="https://www.omnitel.lt" target="_blank"></a>
+          <a class="left" href="https://www.teo.lt" target="_blank"></a>
+        </div>
+      </h2>
+    </div>
   </div>
 </div>

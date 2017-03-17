@@ -1,361 +1,481 @@
 [{
   "pavadinimas": "1111",
+  "foto": "111.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1112",
+  "foto": "112.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1121",
+  "foto": "121.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1122",
+  "foto": "122.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1131",
+  "foto": "131.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1132",
+  "foto": "132.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1141",
+  "foto": "141.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1142",
+  "foto": "142.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1211",
+  "foto": "211.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1212",
+  "foto": "212.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1221",
+  "foto": "221.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1222",
+  "foto": "222.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1231",
+  "foto": "231.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1232",
+  "foto": "232.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1241",
+  "foto": "241.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1242",
+  "foto": "242.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1311",
+  "foto": "311.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1312",
+  "foto": "312.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1321",
+  "foto": "321.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1322",
+  "foto": "322.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1331",
+  "foto": "331.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1332",
+  "foto": "332.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1341",
+  "foto": "341.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "1342",
+  "foto": "342.png",
   "spalva": "#e43f5e"
 }, {
   "pavadinimas": "2111",
+  "foto": "111.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2112",
+  "foto": "112.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2121",
+  "foto": "121.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2122",
+  "foto": "122.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2131",
+  "foto": "131.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2132",
+  "foto": "132.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2141",
+  "foto": "141.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2142",
+  "foto": "142.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2211",
+  "foto": "211.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2212",
+  "foto": "212.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2221",
+  "foto": "221.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2222",
+  "foto": "222.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2231",
+  "foto": "231.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2232",
+  "foto": "232.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2241",
+  "foto": "241.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2242",
+  "foto": "242.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2311",
+  "foto": "311.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2312",
+  "foto": "312.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2321",
+  "foto": "321.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2322",
+  "foto": "322.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2331",
+  "foto": "331.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2332",
+  "foto": "332.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2341",
+  "foto": "341.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "2342",
+  "foto": "342.png",
   "spalva": "#0999d9"
 }, {
   "pavadinimas": "3111",
-  "spalva": "#f5ac1e"
+  "foto": "111.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3112",
-  "spalva": "#f5ac1e"
+  "foto": "112.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3121",
-  "spalva": "#f5ac1e"
+  "foto": "121.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3122",
-  "spalva": "#f5ac1e"
+  "foto": "122.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3131",
-  "spalva": "#f5ac1e"
+  "foto": "131.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3132",
-  "spalva": "#f5ac1e"
+  "foto": "132.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3141",
-  "spalva": "#f5ac1e"
+  "foto": "141.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3142",
-  "spalva": "#f5ac1e"
+  "foto": "142.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3211",
-  "spalva": "#f5ac1e"
+  "foto": "211.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3212",
-  "spalva": "#f5ac1e"
+  "foto": "212.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3221",
-  "spalva": "#f5ac1e"
+  "foto": "221.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3222",
-  "spalva": "#f5ac1e"
+  "foto": "222.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3231",
-  "spalva": "#f5ac1e"
+  "foto": "231.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3232",
-  "spalva": "#f5ac1e"
+  "foto": "232.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3241",
-  "spalva": "#f5ac1e"
+  "foto": "241.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3242",
-  "spalva": "#f5ac1e"
+  "foto": "242.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3311",
-  "spalva": "#f5ac1e"
+  "foto": "311.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3312",
-  "spalva": "#f5ac1e"
+  "foto": "312.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3321",
-  "spalva": "#f5ac1e"
+  "foto": "321.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3322",
-  "spalva": "#f5ac1e"
+  "foto": "322.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3331",
-  "spalva": "#f5ac1e"
+  "foto": "331.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3332",
-  "spalva": "#f5ac1e"
+  "foto": "332.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3341",
-  "spalva": "#f5ac1e"
+  "foto": "341.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "3342",
-  "spalva": "#f5ac1e"
+  "foto": "342.png",
+  "spalva": "#443083"
 }, {
   "pavadinimas": "4111",
+  "foto": "111.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4112",
+  "foto": "112.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4121",
+  "foto": "121.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4122",
+  "foto": "122.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4131",
+  "foto": "131.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4132",
+  "foto": "132.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4141",
+  "foto": "141.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4142",
+  "foto": "142.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4211",
+  "foto": "211.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4212",
+  "foto": "212.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4221",
+  "foto": "221.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4222",
+  "foto": "222.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4231",
+  "foto": "231.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4232",
+  "foto": "232.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4241",
+  "foto": "241.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4242",
+  "foto": "242.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4311",
+  "foto": "311.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4312",
+  "foto": "312.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4321",
+  "foto": "321.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4322",
+  "foto": "322.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4331",
+  "foto": "331.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4332",
+  "foto": "332.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4341",
+  "foto": "341.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "4342",
+  "foto": "342.png",
   "spalva": "#00b48c"
 }, {
   "pavadinimas": "5111",
+  "foto": "111.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5112",
+  "foto": "112.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5121",
+  "foto": "121.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5122",
+  "foto": "122.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5131",
+  "foto": "131.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5132",
+  "foto": "132.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5141",
+  "foto": "141.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5142",
+  "foto": "142.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5211",
+  "foto": "211.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5212",
+  "foto": "212.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5221",
+  "foto": "221.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5222",
+  "foto": "222.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5231",
+  "foto": "231.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5232",
+  "foto": "232.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5241",
+  "foto": "241.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5242",
+  "foto": "242.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5311",
+  "foto": "311.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5312",
+  "foto": "312.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5321",
+  "foto": "321.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5322",
+  "foto": "322.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5331",
+  "foto": "331.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5332",
+  "foto": "332.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5341",
+  "foto": "341.png",
   "spalva": "#101010"
 }, {
   "pavadinimas": "5342",
+  "foto": "342.png",
   "spalva": "#101010"
 }]

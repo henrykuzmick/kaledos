@@ -1,10 +1,12 @@
 .bottom
   height: 100px
   width: 100%
-  position: absolute
+  position: fixed
   left: 0
   bottom: 0
   background-color: $darkpurple
+  @media screen and (max-width: 768px)
+    height: 70px
   .back
     width: 15px
     height: 26px
@@ -35,6 +37,9 @@
       margin-right: 20px
       position: relative
       background-color: rgba(white, 0.2)
+      @media screen and (max-width: 768px)
+        margin-left: 10px
+        margin-right: 10px
       &.current
         background-color: $darkpurple
       &.done

@@ -1,6 +1,11 @@
 .colorpicker
   margin-top: 40px
   display: inline-block
+  margin-bottom: 100px
+  .burbulbreak
+    display: none
+    @media screen and (max-width: 768px)
+      display: block
   .col
     width: 48px
     height: 48px
@@ -13,6 +18,12 @@
     position: relative
     box-sizing: border-box
     transition-duration: 0.2s
+    @media screen and (max-width: 768px)
+      width: 36px
+      height: 36px
+      margin-left: 20px
+      margin-right: 20px
+      margin-bottom: 20px
     &::before
       content: ""
       width: calc(100% - 2px)
@@ -30,6 +41,8 @@
       background-color: $blue
     &.yellow
       background-color: $yellow
+    &.purple
+      background-color: $purple
     &.green
       background-color: $green
     &.black
